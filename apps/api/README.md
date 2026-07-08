@@ -44,7 +44,7 @@ Notes
 - The initial migration `alembic/versions/0001_initial_schema.py` creates the core tables: `users`, `profiles`, `resumes`, `job_applications`.
 # API Service
 
-This package will host the FastAPI backend for Alvest AI.
+This package will host the FastAPI backend for GoJob.
 
 Planned responsibilities:
 - Authentication and authorization.

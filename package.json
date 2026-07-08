@@ -1,10 +1,10 @@
 {
-  "name": "alvest-ai-monorepo",
+  "name": "gojob-monorepo",
   "private": true,
   "version": "0.1.0",
   "packageManager": "pnpm@9.15.0",
   "scripts": {
-    "dev": "concurrently -n web,api,extension -c blue,green,magenta \"pnpm --filter @alvest/web dev\" \"pnpm --filter @alvest/api dev\" \"pnpm --filter @alvest/extension dev\"",
+    "dev": "concurrently -n web,api,extension -c blue,green,magenta \"pnpm --filter @gojob/web dev\" \"pnpm --filter @gojob/api dev\" \"pnpm --filter @gojob/extension dev\"",
     "build": "pnpm -r run build",
     "lint": "pnpm -r run lint",
     "format": "pnpm -r run format",

@@ -1,7 +1,7 @@
 [project]
-name = "alvest-api"
+name = "gojob-api"
 version = "0.1.0"
-description = "Backend service for Alvest AI"
+description = "Backend service for GoJob"
 requires-python = ">=3.11"
 dependencies = [
   "fastapi>=0.115.0",

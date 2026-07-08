@@ -18,7 +18,7 @@ services:
     ports:
       - '8000:8000'
     environment:
-      DATABASE_URL: postgresql+psycopg://postgres:postgres@postgres:5432/alvest
+      DATABASE_URL: postgresql+psycopg://postgres:postgres@postgres:5432/gojob
       REDIS_URL: redis://redis:6379/0
     depends_on:
       - postgres

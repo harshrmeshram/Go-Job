@@ -3,7 +3,7 @@ services:
   postgres:
     image: postgres:16-alpine
     environment:
-      POSTGRES_DB: alvest
+      POSTGRES_DB: gojob
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:

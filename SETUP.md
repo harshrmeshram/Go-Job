@@ -1,4 +1,4 @@
-# Alvest AI Setup Guide
+# GoJob Setup Guide
 
 This guide is intended for a fresh clone of the repository. The goal is to make the development environment reproducible before product features are added.
 
@@ -83,7 +83,7 @@ The API expects PostgreSQL and Redis to be reachable at the defaults defined in 
 ### Web app
 
 ```bash
-pnpm --filter @alvest/web dev
+pnpm --filter @gojob/web dev
 ```
 
 Open http://localhost:3000
@@ -98,7 +98,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 Or with the workspace script:
 
 ```bash
-pnpm --filter @alvest/api dev
+pnpm --filter @gojob/api dev
 ```
 
 Open http://localhost:8000/health
@@ -106,7 +106,7 @@ Open http://localhost:8000/health
 ### Extension
 
 ```bash
-pnpm --filter @alvest/extension dev
+pnpm --filter @gojob/extension dev
 ```
 
 Open the Vite preview at http://localhost:5173

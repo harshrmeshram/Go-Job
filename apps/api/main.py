@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 
-app = FastAPI(title='Alvest AI API', version='0.1.0')
+app = FastAPI(title='GoJob API', version='0.1.0')
 
 
 @app.get('/health')
@@ -11,4 +11,4 @@ def health_check() -> JSONResponse:
 
 @app.get('/')
 def root() -> JSONResponse:
-    return JSONResponse({'message': 'Alvest AI API is running'})
+    return JSONResponse({'message': 'GoJob API is running'})

@@ -1,5 +1,5 @@
 {
-  "name": "@alvest/web",
+  "name": "@gojob/web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,8 +14,8 @@
     "next": "15.0.3",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "@alvest/shared": "workspace:*",
-    "@alvest/ui": "workspace:*"
+    "@gojob/shared": "workspace:*",
+    "@gojob/ui": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.3.12",

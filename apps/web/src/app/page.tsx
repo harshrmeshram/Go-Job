@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-slate-950 px-6 py-16 text-white">
       <div className="max-w-2xl rounded-2xl border border-white/10 bg-white/10 p-10 shadow-2xl backdrop-blur">
-        <p className="mb-4 text-sm uppercase tracking-[0.3em] text-cyan-300">Alvest AI</p>
+        <p className="mb-4 text-sm uppercase tracking-[0.3em] text-cyan-300">GoJob</p>
         <h1 className="text-4xl font-semibold">Your career assistant workspace</h1>
         <p className="mt-4 text-lg text-slate-300">
           This placeholder dashboard will evolve into resume analysis, job matching, and application

@@ -1,6 +1,6 @@
-# Alvest AI
+# GoJob
 
-Alvest AI is a production-ready SaaS platform for AI-assisted career growth. The system combines a web dashboard for job seekers with a Chrome extension that can assist with application form completion after user review.
+GoJob is a production-ready SaaS platform for AI-assisted career growth. The system combines a web dashboard for job seekers with a Chrome extension that can assist with application form completion after user review.
 
 This milestone focuses on environment scaffolding and developer experience. Authentication and AI features are intentionally not implemented yet.
 
@@ -28,6 +28,6 @@ This milestone focuses on environment scaffolding and developer experience. Auth
 4. Start the full development stack: `pnpm dev`
 
 ## Individual app commands
-- Web app: `pnpm --filter @alvest/web dev`
-- API: `pnpm --filter @alvest/api dev`
-- Extension: `pnpm --filter @alvest/extension dev`
+- Web app: `pnpm --filter @gojob/web dev`
+- API: `pnpm --filter @gojob/api dev`
+- Extension: `pnpm --filter @gojob/extension dev`
