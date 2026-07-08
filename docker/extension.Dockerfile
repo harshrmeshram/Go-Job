@@ -11,4 +11,4 @@ RUN corepack enable && pnpm install --ignore-scripts
 COPY . .
 
 EXPOSE 5173
-CMD ["pnpm", "--filter", "@alvest/extension", "dev", "--", "--host", "0.0.0.0"]
+CMD ["pnpm", "--filter", "@gojob/extension", "dev", "--", "--host", "0.0.0.0"]

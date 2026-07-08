@@ -12,4 +12,4 @@ RUN corepack enable && pnpm install --ignore-scripts
 COPY . .
 
 EXPOSE 3000
-CMD ["pnpm", "--filter", "@alvest/web", "dev"]
+CMD ["pnpm", "--filter", "@gojob/web", "dev"]
