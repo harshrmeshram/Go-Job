@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "py -3 -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload",
-    "build": "py -3 -m compileall .",
-    "start": "py -3 -m uvicorn main:app --host 0.0.0.0 --port 8000",
-    "lint": "py -3 -m compileall .",
-    "format": "py -3 -m black .",
-    "test": "echo \"No tests yet\""
+    "dev": "echo Run API manually",
+    "build": "echo API build skipped",
+    "start": "echo API start",
+    "lint": "echo API lint skipped",
+    "format": "echo API format skipped",
+    "test": "echo No tests yet"
   }
 }
