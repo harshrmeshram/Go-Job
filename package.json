@@ -1,0 +1,26 @@
+{
+  "name": "alvest-ai-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "concurrently -n web,api,extension -c blue,green,magenta \"pnpm --filter @alvest/web dev\" \"pnpm --filter @alvest/api dev\" \"pnpm --filter @alvest/extension dev\"",
+    "build": "pnpm -r run build",
+    "lint": "pnpm -r run lint",
+    "format": "pnpm -r run format",
+    "test": "pnpm -r run test",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "concurrently": "^9.0.1",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "husky": "^9.1.0",
+    "prettier": "^3.3.3"
+  }
+}

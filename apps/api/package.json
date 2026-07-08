@@ -1,0 +1,13 @@
+{
+  "name": "@alvest/api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "py -3 -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload",
+    "build": "py -3 -m compileall .",
+    "start": "py -3 -m uvicorn main:app --host 0.0.0.0 --port 8000",
+    "lint": "py -3 -m compileall .",
+    "format": "py -3 -m black .",
+    "test": "echo \"No tests yet\""
+  }
+}
